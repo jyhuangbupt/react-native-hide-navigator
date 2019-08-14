@@ -1,13 +1,13 @@
 
-# react-native-hide-navigator
+# react-native-hide-navigator-android
 
 ## Getting started
 
-`$ npm install react-native-hide-navigator --save`
+`$ npm install react-native-hide-navigator-android --save`
 
 ### Mostly automatic installation
 
-`$ react-native link react-native-hide-navigator`
+`$ react-native link react-native-hide-navigator-android`
 
 ### Manual installation
 
@@ -19,20 +19,19 @@
   - Add `new RNHideNavigatorPackage()` to the list returned by the `getPackages()` method
 2. Append the following lines to `android/settings.gradle`:
   	```
-  	include ':react-native-hide-navigator'
-  	project(':react-native-hide-navigator').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-hide-navigator/android')
+  	include ':react-native-hide-navigator-android'
+  	project(':react-native-hide-navigator-android').projectDir = new File(rootProject.projectDir, 	'../node_modules/react-native-hide-navigator-android/android')
   	```
 3. Insert the following lines inside the dependencies block in `android/app/build.gradle`:
   	```
-      compile project(':react-native-hide-navigator')
+      compile project(':react-native-hide-navigator-android')
   	```
 
 
 ## Usage
 ```javascript
-import RNHideNavigator from 'react-native-hide-navigator';
+import RNHideNavigator from 'react-native-hide-navigator-android';
 
 // TODO: What to do with the module?
 RNHideNavigator;
 ```
-  
