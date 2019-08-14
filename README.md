@@ -2,7 +2,7 @@
 # react-native-hide-navigator-android
 
 ## Uses
-- hide android bottom "back home menu" button for react-native project
+ hide android bottom "back home menu" button for react-native project
 
 ## Getting started
 
